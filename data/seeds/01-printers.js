@@ -1,4 +1,4 @@
-exports.seed = function(knex, Promise) {
+exports.seed = function(knex) {
     return knex('3d_printers')
       .truncate()
       .then(function() {

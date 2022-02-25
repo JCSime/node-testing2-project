@@ -7,6 +7,6 @@ const server = express();
 
 server.use(express.json());
 
-server.use('/printers', printersRouter)
+// server.use('/printers', printersRouter)
 
 module.exports = server;
